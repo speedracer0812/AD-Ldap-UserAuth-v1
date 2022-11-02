@@ -18,6 +18,9 @@ These scripts are:
     - the AppId of the application
     - the url of its registration in the [Azure portal](https://portal.azure.com).
 
+peterxseooutlook.onmicrosoft.com  1543b6ae-664e-47b4-a455-b9294ee982ed
+
+
 - `Cleanup.ps1` which cleans-up the Azure AD objects created by `Configure.ps1`. Note that this script does not revert the changes done in the configuration files, though. You will need to undo the change from source control  (from the command line using, for instance, git reset).
 
 ### Usage pattern for tests and DevOps scenarios
